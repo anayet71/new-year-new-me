@@ -1,29 +1,36 @@
 * {
      font-family: 'Inter', sans-serif;
      font-family: 'Open Sans', sans-serif;
-     margin: 0 auto ;
+     margin: 0 auto;
 }
-header{
+
+/* Header Section Style */
+
+header {
      background-image: url(images/banner/banner1.png);
      background-repeat: no-repeat;
      height: 808px;
      width: 1600px;
 }
-.header-concept{
+
+.header-concept {
      float: right;
      padding-top: 216px;
      padding-right: 200px;
      text-align: right;
 }
-.header-title{
+
+.header-title {
      font-weight: 700;
      font-size: 65px;
      margin-bottom: 24px;
 }
-.header-description{
+
+.header-description {
      margin-bottom: 32px;
 }
-.btn-primary{
+
+.btn-primary {
      color: white;
      font-weight: 600;
      font-size: 20px;
@@ -32,60 +39,65 @@ header{
      border-style: none;
      background-color: #F15B22;
 }
-.about-me{
+
+.about-me {
      margin-top: 131px;
      display: flex;
-    width: 1472px;
+     width: 1472px;
 }
-.experience{
+
+.experience {
      margin-top: 240px;
 }
-.experience-title{
+
+.experience-title {
      margin-bottom: 24px;
      font-weight: 700;
      font-size: 50px;
 }
-.experience-description{
+
+.experience-description {
      margin-bottom: 16px;
      color: #444343;
 }
+
 /* MY Planing */
-.plan{
+.plan {
      margin-top: 130px;
 }
-.plan .experience-title{
+
+.plan .experience-title {
      text-align: center;
      margin-bottom: 56px;
 }
-.plan-section{
+
+.plan-section {
      display: flex;
      width: 1141px;
      gap: 50px;
      text-align: center;
      margin-bottom: 130px;
-   
 }
-web{
-     margin-right: 86px;
-     padding-right: 86px;
-}
+
 /* Call Now */
-.call-me{
+
+.call-me {
      width: 1140px;
      height: 300px;
      background-image: url(images/watch.png);
-
-
 }
-.call-picture{
+
+.call-picture {
      position: absolute;
 }
-.call-picture .experience-title{
+
+.call-picture .experience-title {
      color: white;
      margin-left: 90px;
      margin-top: 70px;
 }
-.btn-call{
+
+.btn-call {
      color: #F15B22;
      font-weight: 600;
      font-size: 20px;
@@ -95,53 +107,63 @@ web{
      background-color: color;
      margin-left: 90px;
 }
-footer{
+
+/* Footer Section Style */
+
+footer {
      width: 1600px;
-     background-color: black ;
+     background-color: black;
      color: white;
      margin-top: 100px;
+     padding-bottom: 70px;
 }
-.future-main{
+
+.future-main {
      display: flex;
      padding-top: 130px;
      padding-left: 200px;
      padding-right: 200px;
-
 }
-.future-description{
+.future-description {
      font-weight: 400px;
      color: rgba(255, 255, 255, 1);
      margin-top: 20PX;
 }
 
-.future-email{
-     margin-top: 20px;
-}
-.future-phone{
+.future-email {
      margin-top: 20px;
 }
 
-.future-icon{
-     display:inline-flex;
+.future-phone {
      margin-top: 20px;
 }
-.facebook{
+
+.future-icon {
+     display: inline-flex;
+     margin-top: 20px;
+}
+
+.facebook {
      margin-left: 20px;
 }
-.sus-title{
+
+.sus-title {
      margin-bottom: 20px;
 }
-input{
+
+input {
      background-color: black;
      padding: 20px 100px 20px 20px;
      border: 1.5px solid white;
      border-radius: 5px;
 }
-input placeholder{
-     font-weight: 400px;
-}
-.sus .btn-call{
+input::placeholder{
+     color: white;
+}  
+
+.sus .btn-call {
      margin-left: 0px;
      margin-top: 20px;
-
 }
+
+/* End of Styles */
